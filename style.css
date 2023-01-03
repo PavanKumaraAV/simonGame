@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(35, 28, 66);
+}
+
+#level__title {
+    margin-top: 20px;
+    padding: 15px;
+    line-height:45px;
+    font-family: 'Press Start 2P', cursive;
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container {
+    width:100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.btn {
+    padding: 15%;
+    margin: 5%;
+    width:150px;
+    height: 150px;
+    border: 8px solid;
+    border-radius: 16px;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.footer__text {
+    text-align: center;
+    font-size: 12px;
+}
+@media (min-width : 768px){
+    .btn {
+    width:300px;
+    height: 300px;
+    border: 16px solid;
+    }
+
+    #level__title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+}
+
+@media (min-width : 1024px){
+
+    .button__section {
+        width:100%;
+            display: flex;
+            justify-content: center;
+    }
+
+    .container {
+        width:50%;
+        justify-content: center;
+    }
+    .btn {
+        width: 25%;
+        height:25%;
+        
+    }
+
+    #level__title {
+        font-size: 90px;
+        line-height: 100px;
+
+    }
+}
+
+
